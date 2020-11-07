@@ -1,0 +1,121 @@
+body{
+  background:#e0e0e0;
+  margin: 0;
+}
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+h1,h2,h3,h4{
+  text-align: center;
+  clear: both;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+  font-size: 8em;
+}
+
+.logo,
+.site-title{
+  text-align: center;
+}
+
+
+
+.site-title{
+  margin-top: -1em;
+margin-bottom: 3em;
+}
+
+/*Splash Section*/
+.splash{
+  background: #ffccbc;
+  padding-bottom: 2em;
+
+}
+
+.buckets{
+  background: black;
+  padding: 2em 1em;
+}
+
+.buckets ul{
+  margin: 0;
+  padding: 0;
+}
+
+.buckets ul li{
+  margin-bottom: 1em;
+  background: white;
+  list-style: none;;
+}
+
+.bucket{
+  padding: 1.5em;
+}
+
+@media screen and (min-width: 600px) {
+	.splash-text {
+		columns: 2;
+		column-gap: 2em;
+	}
+
+	.splash-text p {
+		padding-top: 0;
+	}
+}
+.splash-content{
+  padding: 1.5em;
+}
+
+.more{
+  padding: 2em;
+}
+
+.more-content{
+  padding: 1.5em;
+}
+
+.sidebar{
+  background: grey;
+}
+
+.twin{
+  background: #616161;
+  padding: 2em;
+  color: white;
+}
+
+.twin:last-of-type{
+  background: #607d8b;
+}
+
+.colophon{
+  color: white;
+  background: black;
+  text-align: center;
+  padding: 2em;
+}
+
+.colophon a{
+  color: white;
+}
+
+.colophon a:hover,
+.colophon a:focus
+{
+  border-bottom: 1px solid white;
+}
+
+.site{
+  background: white;
+  max-width: 50em;
+  margin:0 auto;
+}
